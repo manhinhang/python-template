@@ -27,3 +27,5 @@ jobs:
           pip install -r requirements-dev.txt
       - name: Run code
         run: python main.py
+      - name: Test
+        run: pytest

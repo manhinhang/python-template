@@ -1,4 +1,5 @@
 pre-commit
 pylint
 pylint[spelling]
+pytest
 commitizen
